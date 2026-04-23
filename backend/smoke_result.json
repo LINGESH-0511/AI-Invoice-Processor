@@ -1,0 +1,110 @@
+{
+  "important_fields": {
+    "Vendor Address": {
+      "value": "FOOD BAZAAR (FUTURE RETAIL\nSHIPRA MALL PLOT NO.9\nVAIBHAV KHAND INDIRAPURAM\nGHAZIABAD -201010",
+      "confidence": 99.96,
+      "source": "textract",
+      "ocr_source": "textract"
+    },
+    "Vendor GST Number": {
+      "value": "L51909MH2007PLC268269",
+      "confidence": 99.69,
+      "source": "textract",
+      "ocr_source": "textract"
+    },
+    "Vendor Name": {
+      "value": "FOOD BAZAAR",
+      "confidence": 99.47,
+      "source": "textract",
+      "ocr_source": "textract"
+    },
+    "Vendor Phone Number": {
+      "value": "0120-4287617",
+      "confidence": 99.81,
+      "source": "textract",
+      "ocr_source": "textract"
+    },
+    "Bill Number": {
+      "value": "48740107201701991316",
+      "confidence": 97.29,
+      "source": "textract",
+      "ocr_source": "textract"
+    },
+    "Total Amount": {
+      "value": "1075.46",
+      "confidence": 95.57,
+      "source": "textract",
+      "ocr_source": "textract"
+    },
+    "Invoice Date": {
+      "value": "01/07/17",
+      "confidence": 99.88,
+      "source": "textract",
+      "ocr_source": "textract"
+    }
+  },
+  "metadata": {
+    "sources_used": [
+      "textract"
+    ],
+    "fields_merged": 7
+  },
+  "field_bounding_boxes": {
+    "Vendor Address": {
+      "Left": 0.2075107842683792,
+      "Top": 0.017917757853865623,
+      "Width": 0.5178877711296082,
+      "Height": 0.047187983989715576,
+      "confidence": 99.95711517333984,
+      "text": "FOOD BAZAAR (FUTURE RETAIL\nSHIPRA MALL PLOT NO.9\nVAIBHAV KHAND INDIRAPURAM\nGHAZIABAD -201010"
+    },
+    "Vendor GST Number": {
+      "Left": 0.23351310193538666,
+      "Top": 0.10588723421096802,
+      "Width": 0.48145946860313416,
+      "Height": 0.013613997027277946,
+      "confidence": 98.03272247314453,
+      "text": "CIN NO:L51909MH2007PLC268269"
+    },
+    "Vendor Name": {
+      "Left": 0.21024855971336365,
+      "Top": 0.01736929826438427,
+      "Width": 0.5162014365196228,
+      "Height": 0.014781376346945763,
+      "confidence": 99.38121795654297,
+      "text": "FOOD BAZAAR (FUTURE RETAIL LTD)"
+    },
+    "Vendor Phone Number": {
+      "Left": 0.3047909438610077,
+      "Top": 0.06515234708786011,
+      "Width": 0.32304513454437256,
+      "Height": 0.012933952733874321,
+      "confidence": 98.80879211425781,
+      "text": "TEL NO:0120-4287617"
+    },
+    "Bill Number": {
+      "Left": 0.12124466150999069,
+      "Top": 0.84892338514328,
+      "Width": 0.7083703279495239,
+      "Height": 0.016384609043598175,
+      "confidence": 96.9384994506836,
+      "text": "Receipt Number - 48740107201701991316"
+    },
+    "Total Amount": {
+      "Left": 0.7419078350067139,
+      "Top": 0.5846716165542603,
+      "Width": 0.12442782521247864,
+      "Height": 0.011677092872560024,
+      "confidence": 99.91131591796875,
+      "text": "1075.46"
+    },
+    "Invoice Date": {
+      "Left": 0.17895561456680298,
+      "Top": 0.9745051264762878,
+      "Width": 0.5037140250205994,
+      "Height": 0.019905688241124153,
+      "confidence": 99.45830535888672,
+      "text": "St:4874 01/07/17 01:24"
+    }
+  }
+}

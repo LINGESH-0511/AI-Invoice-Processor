@@ -1,0 +1,73 @@
+/* =========================================================
+   ROOT FIX FOR FULL SCREEN LAYOUT
+   (Professional SaaS Version)
+========================================================= */
+
+/* Full viewport setup */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================================================
+   BODY FIX
+   Removes Vite default centering
+========================================================= */
+
+body {
+  display: block;
+  background-color: #ffffff;
+  overflow: auto;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #0f172a;
+
+  /* Better rendering (professional UI feel) */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================================
+   ROOT CONTAINER FIX
+========================================================= */
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+/* =========================================================
+   LINK RESET
+========================================================= */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================================================
+   UNIVERSAL RESET (SAFE)
+========================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   IMAGE / MEDIA SAFETY
+========================================================= */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}

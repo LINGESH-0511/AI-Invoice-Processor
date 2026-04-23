@@ -1,0 +1,101 @@
+/* =========================================================
+   BUTTON (SAAS STYLE)
+========================================================= */
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+button:disabled {
+  background: #475569;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* =========================================================
+   RESULTS GRID (SAAS DASHBOARD STYLE)
+========================================================= */
+
+.results {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+/* =========================================================
+   CARD (INVOICE + PROCESSED INVOICE READY)
+========================================================= */
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+}
+
+/* =========================================================
+   IMAGE PREVIEW (INVOICE + PROCESSED)
+========================================================= */
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 12px;
+  border: 1px solid #334155;
+  object-fit: cover;
+}
+
+/* =========================================================
+   CONFIDENCE BAR (AI LOOK)
+========================================================= */
+
+.confidence-bar {
+  background: #334155;
+  height: 8px;
+  border-radius: 6px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.confidence-fill {
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.5s ease;
+}
+
+/* =========================================================
+   SMALL TEXT IMPROVEMENTS
+========================================================= */
+
+.card p {
+  color: #cbd5e1;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.card strong {
+  color: #f8fafc;
+}

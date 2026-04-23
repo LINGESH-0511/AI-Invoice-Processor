@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+backend/.env
+node_modules/
+backend/node_modules/
+uploads/
+backend/uploads/
+*.db
+*.pkl
+*.csv
+*.mp4
